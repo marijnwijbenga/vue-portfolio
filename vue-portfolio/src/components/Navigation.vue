@@ -3,9 +3,11 @@
         <nav class="navbar navbar-expand-lg navbar-info bg-info rounded navbar-dark">
             <a class="font-weight-bold text-white" href="#">
                 <span class="text-secondary">
-                    dev.</span>portfolio
-                </a>
-            <button class="navbar-toggler" type="button"  @click="toggleMobileMenu">
+                    dev.
+                </span>
+                portfolio
+            </a>
+            <button class="navbar-toggler" type="button"  @click="showMobileMenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse">
@@ -21,7 +23,25 @@
                     </li>
                 </ul>
             </div>
-        </nav>  
+        </nav>
+        <div v-if="showMenu" class="container-fluid bg-dark fixed-top w-100 h-100 text-white py-5">
+            <div class="column">
+                <div class="col-sm">
+                    <button @click="showMenu = false">
+                        <font-awesome-icon :icon="['fa', 'window-close']" />
+                    </button>
+                </div>
+                <div class="col-sm">
+                    <a class="nav-link mr-4" href="#home">Home</a>
+                </div>              
+                <div class="col-sm">
+                    <a class="nav-link mr-4" href="#skills">Skills</a>
+                </div>               
+                <div class="col-sm">
+                    <a class="nav-link mr-4" href="#projects">Projects</a>
+                </div>
+            </div>
+        </div>  
     </div>
 </template>
 
@@ -32,14 +52,13 @@
 
         },
         data() {
-
             return {
-                
+                showMenu: false
             }
         },
         methods: {
-            toggleMobileMenu() {
-                console.log('this works');
+            showMobileMenu() {
+                return this.showMenu = true
             }
         }
 
