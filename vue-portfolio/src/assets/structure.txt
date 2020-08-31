@@ -1,0 +1,65 @@
+home
+     \ components
+            \
+            |- navigation
+            |- personel card
+                    \
+                    json fetch
+                        \
+                        |- photo
+                        |- name
+                        |- level
+                        |- class
+                        |- residency
+                        |- social & contact links
+                        |- skill tags showcase (short)
+                        |- recruit me button
+            |- about card                  
+                    \
+                    json fetch
+                        \
+                        |- who am i
+                                |- title
+                                |- text
+                        |- what do i want
+                                |- title
+                                |- text
+            |- Skills matrix card
+                    \
+                    json fetch
+                        \
+                        Skills
+                            \
+                            |- name
+                            |- category
+                                  categories
+                                        \
+                                        |- Languages
+                                        |- Tooling
+                                        |- Frameworks & libs
+                                        |- Design
+                                        |- Server
+                                        |- Other
+                            |- rating (out of 5 stars)
+            |- Featured projects card
+                    \ 
+                    Json fetch
+                        \
+                        projects
+                            \
+                            project
+                                \
+                                 |- name
+                                 |- description
+                                 |- used languages/frameworks/libs
+                                 |- link to github
+                                 |- link to live environment (production)
+            |- Education and courses card
+                    \
+                    Json fetch
+                        \
+                        |- name
+                        |- location
+                        |- year start
+                        |- year end
+            |- Footer

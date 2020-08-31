@@ -1,0 +1,9 @@
+from darkest to lightest
+#2D3139 - name color (in personel card)
+#4B5361 - skill words in personel card, headings
+#6D788D - normal text color 
+#7A8598 - active link backdrop color in menu
+#9199A9 - background color navigation and button color
+#EBECF0 - line divider colors (underline of card title)
+#D7DAE0 - bg color body
+#FFFFFF - white (bg for cards)
