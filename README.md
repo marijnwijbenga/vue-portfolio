@@ -1,5 +1,6 @@
 # vue-portfolio
 
-todo
-[ ] Add vue router to Navigation component
-[ ] do other components
+## Todo
+- [ ] Add vue router to Navigation component  
+- [ ] Import sass files properly inside App.vue  
+- [ ] do other components
