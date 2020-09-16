@@ -13,7 +13,7 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto mr-5 row">
                     <li class="nav-item active col-sm">
-                        <a class="nav-link mr-4" href="#home">Home</a>
+                        <a @click="attachClass = !attachClass" :class=" { 'rounded': attachClass, 'bg-dark': attachClass, }" class="nav-link mr-4 pt-1 mt-1 px-3 " href="#home">Home</a>
                     </li>
                     <li class="nav-item col-sm">
                         <a class="nav-link mr-4" href="#skills">Skills</a>
@@ -24,21 +24,21 @@
                 </ul>
             </div>
         </nav>
-        <div v-if="showMenu" class="container-fluid bg-dark fixed-top w-100 h-100 text-white py-5">
-            <div class="column">
-                <div class="col-sm">
-                    <button @click="showMenu = false">
-                        <font-awesome-icon :icon="['fa', 'window-close']" />
-                    </button>
+        <div v-if="showMenu" class="container-fluid bg-info fixed-top w-100 h-100 text-white py-5">
+            <div class="d-flex justify-content-around flex-column h-100">
+                <div class="col-sm text-center">
+                    <a @click="showMenu = false">
+                        <h1><font-awesome-icon :icon="['fa', 'window-close']" /></h1>
+                    </a>
                 </div>
-                <div class="col-sm">
-                    <a class="nav-link mr-4" href="#home">Home</a>
+                <div class="col-sm text-center">
+                    <a class="display-4 my-4" href="#home" @click="showMenu = false">Home</a>
                 </div>              
-                <div class="col-sm">
-                    <a class="nav-link mr-4" href="#skills">Skills</a>
+                <div class="col-sm text-center">
+                    <a class="display-4 my-4" href="#skills" @click="showMenu = false">Skills</a>
                 </div>               
-                <div class="col-sm">
-                    <a class="nav-link mr-4" href="#projects">Projects</a>
+                <div class="col-sm text-center">
+                    <a class="display-4 my-4" href="#projects" @click="showMenu = false">Projects</a>
                 </div>
             </div>
         </div>  
@@ -53,7 +53,8 @@
         },
         data() {
             return {
-                showMenu: false
+                showMenu: false,
+                attachClass: false
             }
         },
         methods: {

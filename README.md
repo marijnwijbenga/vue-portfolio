@@ -1,13 +1,24 @@
 # vue-portfolio
-a portfolio made with vue &amp; bootstrap 
 
-## todo 
+## Project setup
+```
+npm install
+```
 
-~~1. setup project~~  
-    ~~- init git repo local and remote~~  
-    ~~- init vue project with vue cli~~  
-    ~~- insert bootstrap~~  
-2. determine project requirements  
-    - digitize wireframe  
-    - sort features into components  
-    -   
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
