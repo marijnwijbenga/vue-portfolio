@@ -1,17 +1,23 @@
 <template>
   <div id="app" class="container">
-    <Navigation></Navigation>
+    <router-view>
+      <Navigation></Navigation>
+    </router-view>
+<PersonnelCard />
+
 
   </div>
 </template>
 
 <script>
 import Navigation from './components/Navigation'
+import PersonnelCard from './components/PersonnelCard'
 
 export default {
   name: 'App',
   components: {
-    Navigation
+    Navigation,
+    PersonnelCard
   }
 }
 </script>
