@@ -8,9 +8,11 @@
               <img src="../assets/img/me.png" alt="" class="img-fluid rounded-circle">
             </div>
             <div class="d-flex flex-column">
-              <div><h3>Marijn Wijbenga</h3></div>
-              <div class="font-weight-bolder my-4"><span class="text-info">Junior</span> Front-end developer</div>
-              <div class="font-weight-light text-info">Schagen, The Netherlands</div>
+              <div>
+                <h3>{{ name }}</h3>
+              </div>
+              <div class="font-weight-bolder my-4">{{ title }}</div>
+              <div class="font-weight-light text-info">{{ location }}</div>
             </div>
           </div>
           <div class="pt-4">social links</div>
@@ -32,9 +34,15 @@
 import Card from "@/components/Card";
 
 export default {
+  props: {
+    title: String,
+    name: String,
+    location: String
+  },
   name: "PersonnelCard",
   components: {
     Card
-  }
+  },
+
 }
 </script>

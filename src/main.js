@@ -6,6 +6,7 @@ import { faWindowClose } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import Navigation from "@/components/Navigation";
 
+
 Vue.use(VueRouter);
 
 library.add(faWindowClose)
