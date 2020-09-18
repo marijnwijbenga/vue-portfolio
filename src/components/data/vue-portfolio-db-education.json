@@ -1,0 +1,65 @@
+[
+ {
+   "id": 1,
+   "ownerID": 1,
+   "name": "Literature",
+   "location": "UVA, Amsterdam",
+   "period": "2005-2008"
+ },
+ {
+   "id": 2,
+   "ownerID": 1,
+   "name": "Music & Technology",
+   "location": "HVA, Utrecht",
+   "period": "2008-2009"
+ },
+ {
+   "id": 3,
+   "ownerID": 1,
+   "name": "Conservatory",
+   "location": "Schumann, Amsterdam",
+   "period": "2010-2013"
+ },
+ {
+   "id": 4,
+   "ownerID": 1,
+   "name": "MCSA",
+   "location": "Microsoft",
+   "period": "2014"
+ },
+ {
+   "id": 5,
+   "ownerID": 1,
+   "name": "MCSE",
+   "location": "Microsoft",
+   "period": "2015"
+ },
+ {
+   "id": 6,
+   "ownerID": 1,
+   "name": "MS 365",
+   "location": "Microsoft",
+   "period": "2018"
+ },
+ {
+   "id": 7,
+   "ownerID": 1,
+   "name": "Azure",
+   "location": "Microsoft",
+   "period": "2019"
+ },
+ {
+   "id": 8,
+   "ownerID": 1,
+   "name": "JavaScript",
+   "location": "Udemy",
+   "period": "2018-current"
+ },
+ {
+   "id": 9,
+   "ownerID": 1,
+   "name": "Vue.js",
+   "location": "Vue Mastery",
+   "period": "2020-current"
+ }
+]

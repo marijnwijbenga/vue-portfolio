@@ -1,0 +1,38 @@
+[
+ {
+   "id": 1,
+   "ownerId": 1,
+   "name": "vue-portfolio",
+   "description": "Portfolio (this one) made with Vue.js & Bootstrap",
+   "repoLink": "https://github.com/marijnwijbenga/vue-portfolio",
+   "liveLink": "www.marijnwijbenga.nl",
+   "featured": true
+ },
+ {
+   "id": 2,
+   "ownerId": 1,
+   "name": "pong",
+   "description": "Pong canvas game made with vanilla JS",
+   "repoLink": "https://github.com/marijnwijbenga/pong",
+   "liveLink": "marijnwijbenga.nl/projects/pong",
+   "featured": true
+ },
+ {
+   "id": 3,
+   "ownerId": 1,
+   "name": "pacman-js",
+   "description": "Pacman Canvas game made in vanilla JS",
+   "repoLink": "https://github.com/marijnwijbenga/pacman-js",
+   "liveLink": "marijnwijbenga.nl/projects/pacman",
+   "featured": true
+ },
+ {
+   "id": 4,
+   "ownerId": 1,
+   "name": "",
+   "description": "Calender SPA made with Vue.js and Tailwind",
+   "repoLink": "https://github.com/marijnwijbenga/vue-calender",
+   "liveLink": "marijnwijbenga.nl/projects/vue-calender",
+   "featured": true
+ }
+]

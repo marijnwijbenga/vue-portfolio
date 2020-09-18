@@ -1,0 +1,92 @@
+[
+ {
+   "id": 1,
+   "skill": "JavaScript",
+   "category": 1
+ },
+ {
+   "id": 2,
+   "skill": "Vue.js",
+   "category": 2
+ },
+ {
+   "id": 3,
+   "skill": "CSS",
+   "category": 1
+ },
+ {
+   "id": 4,
+   "skill": "Bootstrap",
+   "category": 2
+ },
+ {
+   "id": 5,
+   "skill": "Tailwind",
+   "category": 2
+ },
+ {
+   "id": 6,
+   "skill": "Illustration",
+   "category": 4
+ },
+ {
+   "id": 7,
+   "skill": "Sys admin",
+   "category": 5
+ },
+ {
+   "id": 8,
+   "skill": "Graphic design",
+   "category": 4
+ },
+ {
+   "id": 9,
+   "skill": "HTML",
+   "category": 1
+ },
+ {
+   "id": 10,
+   "skill": "Webstorm",
+   "category": 3
+ },
+ {
+   "id": 11,
+   "skill": "GIT",
+   "category": 3
+ },
+ {
+   "id": 12,
+   "skill": "Webpack",
+   "category": 3
+ },
+ {
+   "id": 13,
+   "skill": "UI/UX",
+   "category": 4
+ },
+ {
+   "id": 14,
+   "skill": "Azure",
+   "category": 5
+ },
+ {
+   "id": 15,
+   "skill": "Linux",
+   "category": 5
+ },
+ {
+   "id": 16,
+   "skill": "AWS",
+   "category": 5
+ },
+ {
+   "id": 17,
+   "skill": "Writing",
+   "category": 6
+ },
+ {
+   "id": 18,
+   "skill": "Troubleshooting",
+   "category": 6
+ }
+]

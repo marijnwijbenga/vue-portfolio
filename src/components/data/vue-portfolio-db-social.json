@@ -1,0 +1,30 @@
+[
+ {
+   "id": 1,
+   "platform": "website"
+ },
+ {
+   "id": 2,
+   "platform": "github"
+ },
+ {
+   "id": 3,
+   "platform": "linkedin"
+ },
+ {
+   "id": 4,
+   "platform": "instagram"
+ },
+ {
+   "id": 5,
+   "platform": "facebook"
+ },
+ {
+   "id": 6,
+   "platform": "twitter"
+ },
+ {
+   "id": 7,
+   "platform": "medium"
+ }
+]

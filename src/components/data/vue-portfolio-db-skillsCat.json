@@ -1,0 +1,26 @@
+[
+ {
+   "id": 1,
+   "category": "Languages"
+ },
+ {
+   "id": 2,
+   "category": "Frameworks & Libraries"
+ },
+ {
+   "id": 3,
+   "category": "Tooling"
+ },
+ {
+   "id": 4,
+   "category": "Design"
+ },
+ {
+   "id": 5,
+   "category": "Server"
+ },
+ {
+   "id": 6,
+   "category": "Other"
+ }
+]
