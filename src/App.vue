@@ -1,11 +1,14 @@
 <template>
+
   <div id="app" class="container">
     <router-view>
       <Navigation></Navigation>
     </router-view>
-    <PersonnelCard :fullName="fullName" :title="title" :residency="residency"/>
-
-
+    <PersonnelCard
+        :fullName="persons[0].firstName + ' ' + persons[0].lastName"
+        :title="personsAbout[0].title"
+        :residency="persons[0].city + ',' + persons[0].country"
+    />
   </div>
 </template>
 
@@ -23,19 +26,32 @@ export default {
   },
   data() {
     return {
+      firstName: String,
+      lastName: String,
+      residency: String,
       title: String,
-      persons: []
+      persons: [],
+      personsAbout: []
     }
   },
   created() {
+
     axios
         .get('http://localhost:8080/data/vue-portfolio-db-person.json')
         .then(response => {
           this.persons = response.data;
-          console.table(response.data);
+          console.log(response.data);
         })
         .catch(error => {
-          console.log('ik neuk jullie allemaal de moeder', error.response)
+          console.log('something went wrong fetching the data', error.response)
+        }),
+    axios
+        .get('http://localhost:8080/data/vue-portfolio-db-about.json')
+        .then(response => {
+          this.personsAbout = response.data;
+        })
+        .catch(error => {
+          console.log('something went wrong fetching the data', error.response)
         })
   }
 }

@@ -12,6 +12,9 @@
       </button>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto mr-5 row">
+
+<!--          todo put link menus in object or array and use v-for to loop through and render -->
+
           <li class="nav-item active col-sm">
             <router-link to="/" :active-class="activeClass" class="nav-link mr-4 pt-1 mt-1 px-3" exact>Home
             </router-link>
@@ -49,7 +52,6 @@
     </div>
   </div>
 </template>
-
 <script>
 export default {
   name: 'Navigation',
@@ -65,6 +67,5 @@ export default {
       return this.showMenu = true
     }
   }
-
 }
 </script>
